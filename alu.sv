@@ -1,4 +1,4 @@
-module ALU(input  logic [31:0] a, b,
+module alu(input  logic [31:0] a, b,
 	input  logic [2:0]  f,
 	output logic [31:0] y,
 	output logic zero); 
