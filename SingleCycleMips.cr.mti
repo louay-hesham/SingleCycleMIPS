@@ -1,1 +1,8 @@
+{I:/College/Computer Architecture/SingleCycleMIPS/controller.sv} {1 {vlog -work work -sv -stats=none {I:/College/Computer Architecture/SingleCycleMIPS/controller.sv}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module controller
 
+Top level modules:
+	controller
+
+} {} {}}
