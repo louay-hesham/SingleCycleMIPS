@@ -12,26 +12,12 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	mux2
 
-} {} {}} {I:/College/Computer Architecture/SingleCycleMIPS/controller.sv} {1 {vlog -work work -sv -stats=none {I:/College/Computer Architecture/SingleCycleMIPS/controller.sv}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module controller
-
-Top level modules:
-	controller
-
 } {} {}} {I:/College/Computer Architecture/SingleCycleMIPS/signextention.sv} {1 {vlog -work work -sv -stats=none {I:/College/Computer Architecture/SingleCycleMIPS/signextention.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module signext
 
 Top level modules:
 	signext
-
-} {} {}} {I:/College/Computer Architecture/SingleCycleMIPS/mips.sv} {1 {vlog -work work -sv -stats=none {I:/College/Computer Architecture/SingleCycleMIPS/mips.sv}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module mips
-
-Top level modules:
-	mips
 
 } {} {}} {I:/College/Computer Architecture/SingleCycleMIPS/alu.sv} {1 {vlog -work work -sv -stats=none {I:/College/Computer Architecture/SingleCycleMIPS/alu.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -46,13 +32,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	top
-
-} {} {}} {I:/College/Computer Architecture/SingleCycleMIPS/maindecoder.sv} {1 {vlog -work work -sv -stats=none {I:/College/Computer Architecture/SingleCycleMIPS/maindecoder.sv}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module maindec
-
-Top level modules:
-	maindec
 
 } {} {}} {I:/College/Computer Architecture/SingleCycleMIPS/flipflop.sv} {1 {vlog -work work -sv -stats=none {I:/College/Computer Architecture/SingleCycleMIPS/flipflop.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -81,13 +60,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	testbench
-
-} {} {}} {I:/College/Computer Architecture/SingleCycleMIPS/aludecoder.sv} {1 {vlog -work work -sv -stats=none {I:/College/Computer Architecture/SingleCycleMIPS/aludecoder.sv}
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module aludec
-
-Top level modules:
-	aludec
 
 } {} {}} {I:/College/Computer Architecture/SingleCycleMIPS/adder.sv} {1 {vlog -work work -sv -stats=none {I:/College/Computer Architecture/SingleCycleMIPS/adder.sv}
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
