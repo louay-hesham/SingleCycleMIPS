@@ -1,16 +1,11 @@
 module aludec(	input logic [5:0] funct,
 		input logic [1:0] aluop,
-		output logic [2:0] alucontrol,
-		output logic ori);
+		output logic [2:0] alucontrol);
 	always_comb
 		case(aluop)
 			2'b00: alucontrol <= 3'b010; 	// add (for lw/sw/addi)
 			2'b01: alucontrol <= 3'b110; 	// sub (for beq)
-			2'b11: 
-			begin
-				alucontrol <= 3'b001;	// or (for ori)
-				ori = 1'b1;
-			end
+			2'b11: alucontrol <= 3'b001;	// or (for ori)
 			default:
 				case(funct) 		// R-type instructions
 					6'b100000: alucontrol <= 3'b010; // add
