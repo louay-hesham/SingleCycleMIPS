@@ -2,10 +2,10 @@ module maindec(	input logic [5:0] op,
 		output logic memtoreg, memwrite,
 		output logic branch, alusrc,
 		output logic regdst, regwrite,
-		output logic jump, bne, ori,
+		output logic jump, bne, signOrZero,
 		output logic [1:0] aluop);
 	logic [10:0] controls;
-	assign {regwrite, regdst, alusrc, branch, memwrite, memtoreg, jump, bne, ori, aluop} = controls;
+	assign {regwrite, regdst, alusrc, branch, memwrite, memtoreg, jump, bne, signOrZero, aluop} = controls;
 	always_comb
 		case(op)
 			6'b000000: controls <= 11'b11000000010; // RTYPE

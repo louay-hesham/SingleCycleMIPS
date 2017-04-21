@@ -1,7 +1,7 @@
 module datapath(	input logic clk, reset,
 			input logic memtoreg, pcsrc,
 			input logic alusrc, regdst,
-			input logic regwrite, jump, ori,
+			input logic regwrite, jump, signOrZero,
 			input logic [2:0] alucontrol,
 			output logic zero,
 			output logic [31:0] pc,
@@ -26,7 +26,7 @@ module datapath(	input logic clk, reset,
 	mux2 #(5) 	wrmux(instr[20:16], instr[15:11], regdst, writereg);
 	mux2 #(32) 	resmux(aluout, readdata, memtoreg, result);
 	// zero extension in ori
-	signext 	se(instr[15:0], ori, signimm);
+	signext 	se(instr[15:0], signOrZero, signimm);
 
 	// ALU logic
 	mux2 #(32) 	srcbmux(writedata, signimm, alusrc, srcb);
